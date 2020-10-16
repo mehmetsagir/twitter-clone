@@ -1,4 +1,3 @@
-----------------
 # Vue.js - Twitter Clone
 ## Project setup
 ```
