@@ -1,5 +1,5 @@
-----------------
-# Vue.js - Twitter Clone
+# twitter-clone
+
 ## Project setup
 ```
 npm install
@@ -20,10 +20,5 @@ npm run build
 npm run lint
 ```
 
-## Author✍️
-👤 Mehmet Sağır
-
-___
-
-### Licance
-* MIT
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
