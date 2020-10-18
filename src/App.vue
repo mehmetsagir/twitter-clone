@@ -4,14 +4,17 @@
         <div class="container">
             <router-view />
         </div>
+       <MessageBox/>
     </div>
 </template>
 
 <script>
 import Sidebar from "@/components/Sidebar";
+import MessageBox from "@/components/MessageBox";
 export default {
     name: "App.vue",
     components: {
+       MessageBox,
         Sidebar
     }
 };

@@ -4,6 +4,7 @@ import router from "./router";
 import "@/css/main.scss";
 
 Vue.config.productionTip = false;
+Vue.component("icon", require("./components/icons").default);
 
 new Vue({
   router,

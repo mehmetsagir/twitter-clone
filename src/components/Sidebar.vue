@@ -2,28 +2,28 @@
     <div class="app">
         <div class="container">
             <router-link tag="div" to="/home" class="logo hover">
-                <IconTwitter />
+                <icon name="twitter" />
             </router-link>
             <nav>
                 <router-link tag="a" to="/home" active-class="active">
                     <div class="linkBox homeIcon">
-                        <IconHome v-if="$route.name == 'home'" />
-                        <IconHomeFill v-else />
+                       <icon name="home" v-if="$route.name != 'home'" />
+                       <icon name="homeFill" v-else/>
                         <CustomText font="xlarge fw-bold">Home</CustomText>
                     </div>
                 </router-link>
                 <router-link to="/explore" tag="a" active-class="active">
                     <div class="linkBox">
-                        <IconExplore />
+                        <icon name="explore"/>
                         <CustomText font="xlarge fw-bold">Explore</CustomText>
                     </div>
                 </router-link>
                 <router-link to="/notifications" tag="a" active-class="active">
                     <div class="linkBox">
-                        <IconNotification
+                        <icon name="notification"
                             v-if="$route.name != 'notifications'"
                         />
-                        <IconNotificationFill v-else />
+                        <icon name="notificationFill" v-else />
                         <CustomText font="xlarge fw-bold"
                             >Notifications</CustomText
                         >
@@ -31,35 +31,35 @@
                 </router-link>
                 <router-link to="/messages" tag="a" active-class="active">
                     <div class="linkBox">
-                        <IconMessages v-if="$route.name != 'messages'" />
-                        <IconMessagesFill v-else />
+                        <icon name="message" v-if="$route.name != 'messages'" />
+                        <icon name="messageFill" v-else />
                         <CustomText font="xlarge fw-bold">Messages</CustomText>
                     </div>
                 </router-link>
                 <router-link to="/bookmarks" tag="a" active-class="active">
                     <div class="linkBox">
-                        <IconBookmarks v-if="$route.name != 'bookmarks'" />
-                        <IconBookmarksFill v-else />
+                        <icon name="bookmarks" v-if="$route.name != 'bookmarks'" />
+                        <icon name="bookmarksFill" v-else />
                         <CustomText font="xlarge fw-bold">Bookmarks</CustomText>
                     </div>
                 </router-link>
                 <router-link to="/lists" tag="a" active-class="active">
                     <div class="linkBox">
-                        <IconList v-if="$route.name != 'lists'" />
-                        <IconListFill v-else />
+                        <icon name="list" v-if="$route.name != 'lists'" />
+                        <icon name="listFill" v-else />
                         <CustomText font="xlarge fw-bold">Lists</CustomText>
                     </div>
                 </router-link>
                 <router-link to="profile" tag="a" active-class="active">
                     <div class="linkBox">
-                        <IconProfile v-if="$route.name != 'profile'" />
-                        <IconProfileFill v-else />
+                        <icon name="user" v-if="$route.name != 'profile'" />
+                        <icon name="userFill" v-else />
                         <CustomText font="xlarge fw-bold">Profile</CustomText>
                     </div>
                 </router-link>
                 <a>
                     <div class="linkBox">
-                        <IconMore />
+                        <icon name="more" />
                         <CustomText font="xlarge fw-bold">More</CustomText>
                     </div>
                 </a>
@@ -88,54 +88,22 @@
                         >
                     </div>
                 </div>
-                <IconDown class="downIcon" />
+                <icon name="down" class="downIcon" />
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import IconTwitter from "@/icons/IconTwitter";
-import IconHomeFill from "@/icons/IconHome";
-import IconHome from "@/icons/IconHomeFill";
-import IconExplore from "@/icons/IconExplore";
-import IconNotification from "@/icons/IconNotification";
-import IconNotificationFill from "@/icons/IconNotificationFill";
-import IconMessages from "@/icons/IconMessage";
-import IconMessagesFill from "@/icons/IconMessageFill";
-import IconBookmarks from "@/icons/IconBookmarks";
-import IconBookmarksFill from "@/icons/IconBookmarksFill";
-import IconList from "@/icons/IconList";
-import IconListFill from "@/icons/IconListFill";
-import IconProfile from "@/icons/IconUser";
-import IconProfileFill from "@/icons/IconUserFill";
-import IconMore from "@/icons/IconMore";
 import CustomText from "@/components/CustomText";
 import CustomButton from "@/components/CustomButton";
 import Avatar from "@/components/Avatar";
-import IconDown from "@/icons/IconDown";
 export default {
     name: "Sidebar.vue",
     components: {
         Avatar,
         CustomButton,
         CustomText,
-        IconTwitter,
-        IconHome,
-        IconHomeFill,
-        IconExplore,
-        IconNotification,
-        IconNotificationFill,
-        IconMessages,
-        IconMessagesFill,
-        IconBookmarks,
-        IconBookmarksFill,
-        IconList,
-        IconListFill,
-        IconProfile,
-        IconProfileFill,
-        IconMore,
-        IconDown
     }
 };
 </script>
