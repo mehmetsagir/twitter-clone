@@ -8,6 +8,7 @@ export default {
    props : {
       image: {
          type: String,
+         default: "https://www.shareicon.net/data/128x128/2016/05/24/770117_people_512x512.png"
       },
       size: {
          type: String,

@@ -76,9 +76,7 @@
             </CustomButton>
             <div class="user">
                 <div class="userBox">
-                    <Avatar
-                        image="https://www.shareicon.net/data/128x128/2016/05/24/770117_people_512x512.png"
-                    />
+                    <Avatar/>
                     <div class="userDetail">
                         <CustomText tag="p" font="fw-bold"
                             >Mehmet Sağır</CustomText
@@ -110,15 +108,15 @@ export default {
 
 <style lang="scss" scoped>
 .app {
-    height: 100vh;
-    position: sticky;
-    top: 0;
+   height: 100vh;
+   width: 350px;
+
     .container {
         width: 273px;
         height: 100%;
-        margin-left: auto;
         border-right: 1px solid #38444d;
-        * svg {
+        position: fixed;
+       * svg {
             fill: #ffffff;
         }
         .logo {
@@ -152,7 +150,6 @@ export default {
                         margin-right: 20px;
                     }
                 }
-
                 &.active {
                     * {
                         color: #1da1f2;
@@ -171,7 +168,7 @@ export default {
                 }
             }
         }
-        .modalTweetButton {
+        .modalTweetButton  {
             margin-top: 23px;
             margin-left: 3px;
             padding: 16px 93px;

@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <Sidebar />
+        <Sidebar/>
         <div class="container">
             <router-view />
         </div>
@@ -22,15 +22,13 @@ export default {
 
 <style lang="scss" scoped>
 #app {
-    margin: 0 auto;
     max-width: 1250px;
+    max-height: 100vh;
     display: flex;
-    height: 300vh;
     justify-content: center;
+    margin: 0 auto;
     .container {
-        flex: 2;
         width: 100%;
-        height: 100vh;
     }
 }
 @media (max-width: 1290px) {

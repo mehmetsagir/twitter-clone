@@ -1,12 +1,18 @@
 <template>
-   <button>
+   <button :disabled="disabled">
       <slot/>
    </button>
 </template>
 
 <script>
 export default {
-name: "CustomButton"
+name: "CustomButton",
+   props : {
+      disabled: {
+         type: Boolean,
+         default: false,
+      }
+   }
 }
 </script>
 
@@ -25,6 +31,10 @@ name: "CustomButton"
 
       &:hover{
          background: rgba(#1DA1F2, .9);
+      }
+      &:disabled{
+         opacity: .5;
+         cursor: default;
       }
    }
 </style>
