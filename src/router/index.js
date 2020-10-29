@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "@/views/Home";
+import Home from "@/views/Home/Home";
 
-Vue.use(VueRouter);
+  Vue.use(VueRouter);
 
 const routes = [
   {
