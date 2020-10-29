@@ -1,9 +1,5 @@
 <template>
-<<<<<<< HEAD
   <div class="page">
-=======
-  <div>
->>>>>>> 7c1779c87b0416d2b54e87f25e341baaa1aee193
      <HomeHeader/>
      <div class="pageContainer">
         <tweetSendArea/>
@@ -24,12 +20,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-<<<<<<< HEAD
 .page{
    width: 598px;
 }
-=======
->>>>>>> 7c1779c87b0416d2b54e87f25e341baaa1aee193
 .pageContainer{
    width: 598px;
    border-right: 1px solid #38444d;

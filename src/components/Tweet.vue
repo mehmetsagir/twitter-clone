@@ -62,11 +62,7 @@ export default {
       margin-right: 5px;
    }
    .tweet{
-<<<<<<< HEAD
       width: 100%;
-=======
-      width: 100% !important;
->>>>>>> 7c1779c87b0416d2b54e87f25e341baaa1aee193
       .tweetDetail{
          span{
             margin-right: 5px;
