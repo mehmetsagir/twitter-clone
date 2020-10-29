@@ -25,10 +25,17 @@ export default {
 
 <style lang="scss" scoped>
 #app {
+<<<<<<< HEAD
     position: relative;
     max-width: 1250px;
     max-height: 100vh;
     display: flex;
+=======
+    max-width: 1250px;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+>>>>>>> 7c1779c87b0416d2b54e87f25e341baaa1aee193
     margin: 0 auto;
     .container {
         width: 100%;

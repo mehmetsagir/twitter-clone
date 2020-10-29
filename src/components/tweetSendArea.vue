@@ -56,10 +56,18 @@ export default {
 
 <style scoped lang="scss">
 .container{
+<<<<<<< HEAD
    width: 100%;
    min-height: 118px;
    max-height: 160px;
    padding: 10px;
+=======
+   width: 598px;
+   min-height: 118px;
+   max-height: 160px;
+   padding: 10px;
+   border-right: 1px solid #38444d;
+>>>>>>> 7c1779c87b0416d2b54e87f25e341baaa1aee193
    .profile{
       float: left;
       height: 100%;

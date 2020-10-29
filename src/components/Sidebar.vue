@@ -110,7 +110,11 @@ export default {
 .app {
    height: 100vh;
    width: 350px;
+<<<<<<< HEAD
    z-index: 55;
+=======
+
+>>>>>>> 7c1779c87b0416d2b54e87f25e341baaa1aee193
     .container {
        background: #15202B;
         width: 273px;
