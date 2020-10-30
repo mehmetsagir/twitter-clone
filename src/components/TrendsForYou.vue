@@ -40,10 +40,10 @@ export default {
     width: 100%;
     background: #192734;
     .header {
+        padding: 0 15px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 15px;
         height: 44px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -55,6 +55,7 @@ export default {
     }
     .contentBox {
         .content {
+            padding: 0 15px;
             cursor: pointer;
             border-top: 1px solid #38444d;
             &:hover {
@@ -81,9 +82,9 @@ export default {
                 color: #8899a6;
             }
             &.show {
+                padding: 0;
                 border-bottom-left-radius: 15px;
                 border-bottom-right-radius: 15px;
-                height: 50px;
                 cursor: pointer;
                 span {
                     display: block;
@@ -91,6 +92,7 @@ export default {
                     height: 100%;
                     border: none;
                     color: #1da1f2;
+                    padding: 15px 10px;
                 }
             }
         }
