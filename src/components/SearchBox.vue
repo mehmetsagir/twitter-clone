@@ -1,9 +1,9 @@
 <template>
   <div class="searchBox">
-    <form>
+    <div class="form">
       <input type="text" :placeholder="placeholder" />
       <icon name="search" />
-    </form>
+    </div>
   </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
 .searchBox {
   margin-top: 5px;
   position: relative;
-  form {
+  .form {
     svg {
       width: 17px;
       position: absolute;

@@ -8,7 +8,7 @@
         <router-link tag="a" to="/">
           <div class="linkBox homeIcon">
             <icon name="home" v-if="$route.name != 'home'" />
-            <icon name="homeFill" v-else />
+            <icon name="homeFill" class="active" v-else />
             <CustomText font="xlarge fw-bold">Home</CustomText>
           </div>
         </router-link>
@@ -143,6 +143,9 @@ export default {
           svg{
             width: 27px;
             margin-right: 20px;
+            &.active + span{
+              color: #1da1f2;
+            }
           }
         }
         &.active {
