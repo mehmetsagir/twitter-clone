@@ -6,13 +6,9 @@ import Home from "@/views/Home/Home";
 
 const routes = [
   {
-    path: "/home",
+    path: "/",
     name: "home",
     component: Home
-  },
-  {
-    path: "/",
-    redirect: "/home",
   },
   {
     path: "/explore",
