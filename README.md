@@ -1,5 +1,5 @@
 # Vue.js - Twitter Clone
-✨ **Live Demo ->** [twitter.memetsagir.com](http://twitter.memetsagir.com)
+✨ **Live Demo ->** [twitter-clone-ms.netlify.app](https://twitter-clone-ms.netlify.app/)
 ## Project setup
 ```
 npm install
