@@ -1,13 +1,11 @@
 <template>
-   <div>Profile Page</div>
+  <div>Profile Page</div>
 </template>
 
 <script>
 export default {
-   name: "Profile"
-}
+  name: "Profile"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

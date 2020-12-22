@@ -1,13 +1,11 @@
 <template>
-   <div>Bookmarks Page</div>
+  <div>Bookmarks Page</div>
 </template>
 
 <script>
 export default {
-   name: "Bookmarks"
-}
+  name: "Bookmarks"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

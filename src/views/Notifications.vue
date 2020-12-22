@@ -1,13 +1,11 @@
 <template>
-   <div>Notification Page</div>
+  <div>Notification Page</div>
 </template>
 
 <script>
 export default {
-   name: "Notification"
-}
+  name: "Notification"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

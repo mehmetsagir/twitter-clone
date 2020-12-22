@@ -1,13 +1,11 @@
 <template>
-   <div>Lists Page</div>
+  <div>Lists Page</div>
 </template>
 
 <script>
 export default {
-   name: "Lists"
-}
+  name: "Lists"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
