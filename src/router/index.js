@@ -48,7 +48,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: "history",
-  base: process.env.BASE_URL,
+  base: "https://twitter-clone-ms.netlify.app/",
   routes
 });
 
